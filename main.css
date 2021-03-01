@@ -9,3 +9,16 @@ div {
   border-right-color: transparent; /* the right side */
   border-bottom-color: transparent; /* and the bottom of the circle */
 }
+
+#gradrain {
+  height: 55px;
+  background-color: red;
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue,
+    indigo, violet);
+}
+.gradrain2 {
+  height: 200px;
+  background-color: red;
+  background-image: repeating-linear-gradient(red 4%, orange 8%, yellow 8%,
+    green 8%, blue 8%, indigo 8%, violet 10%);
+}
